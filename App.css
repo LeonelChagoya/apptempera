@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  font-family: 'Gentium Book Plus', serif;
+}
+
+.conteiner {
+  display: flex;
+
+}
+
+.cardConteiner {
+  font-family: 'Gentium Book Plus', serif;
+  border-radius: 25px;
+  height: 480px;
+  width: 300px;
+  background-image: linear-gradient(0, #dfdaff 0, #93a9ff 25%, #4676f9 50%, #0046a6 75%, #001d5d 100%);
+  text-align: center;
+  margin: 0 0 0 25%;
+  padding: 0.5rem;
+  color: white;
+}
+
+.cardMoreData {
+  position: relative;
+  border-radius: 25px;
+  height: 480px;
+  width: 150px;
+  text-align: center;
+  color: black;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-image: radial-gradient(circle at 50% -3.03%, #69ffff 0, #54ffff 12.5%, #47ffff 25%, #43ffff 37.5%, #46edf9 50%, #4bd1e2 62.5%, #4fb8cc 75%, #51a3b8 87.5%, #5391a6 100%);
+
+}
+.windSeed, .pressure, .clouds{
+background-color: rgba(248, 248, 248, 0.797);
+padding: 0.5rem;
+border-radius: 10px;
+font-size: 15px;
+}
+
+.city {
+  font-size: 20px;
+}
+
+.iconWh>img {
+  width: 200px;
+
+}
+
+.cardTemp {
+  font-size: 45px;
+  margin: 0 auto;
+}
+
+.buttonChange {
+  width: 200px;
+  height: 50px;
+  margin: 1rem;
+  background: rgba(0, 0, 0, 0.256);
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+
+
+
+
+.cardConteiner:hover {
+  z-index: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
+.cardMoreData:hover {
+  z-index: 1;
+  background-color: #2195f3fe;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
